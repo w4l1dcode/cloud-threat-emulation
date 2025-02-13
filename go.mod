@@ -4,9 +4,9 @@ go 1.22.6
 
 require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
-	github.com/aws/aws-sdk-go-v2/service/ecr v1.41.0
 	github.com/aws/aws-sdk-go-v2/config v1.29.6
-	github.com/datadog/stratus-red-team/v2 v2.20.0
+	github.com/aws/aws-sdk-go-v2/service/ecr v1.41.0
+	github.com/datadog/stratus-red-team/v2 v2.22.1
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/sirupsen/logrus v1.9.3
@@ -23,42 +23,45 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v6 v6.1.0 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resources/armresources v1.2.0 // indirect
 	github.com/AzureAD/microsoft-authentication-library-for-go v1.2.2 // indirect
+	github.com/ProtonMail/go-crypto v1.1.0-alpha.2 // indirect
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
+	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.36.1 // indirect
-	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.6.6 // indirect
+	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.6.8 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.59 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.28 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.15.4 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.61 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.32 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.32 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.2 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/v4a v1.3.22 // indirect
-	github.com/aws/aws-sdk-go-v2/service/bedrockruntime v1.17.0 // indirect
-	github.com/aws/aws-sdk-go-v2/service/cloudtrail v1.35.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ec2 v1.138.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ec2instanceconnect v1.20.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/eks v1.46.0 // indirect
-	github.com/aws/aws-sdk-go-v2/service/iam v1.28.2 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/v4a v1.3.32 // indirect
+	github.com/aws/aws-sdk-go-v2/service/bedrockruntime v1.24.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/cloudtrail v1.47.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ec2 v1.202.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ec2instanceconnect v1.27.15 // indirect
+	github.com/aws/aws-sdk-go-v2/service/eks v1.58.0 // indirect
+	github.com/aws/aws-sdk-go-v2/service/iam v1.39.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.12.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.4.3 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.6.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.13 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.18.3 // indirect
-	github.com/aws/aws-sdk-go-v2/service/lambda v1.49.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/organizations v1.23.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/rds v1.64.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/rolesanywhere v1.6.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/route53resolver v1.25.0 // indirect
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.66.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.25.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ses v1.22.4 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssm v1.44.2 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.18.13 // indirect
+	github.com/aws/aws-sdk-go-v2/service/lambda v1.69.12 // indirect
+	github.com/aws/aws-sdk-go-v2/service/organizations v1.37.8 // indirect
+	github.com/aws/aws-sdk-go-v2/service/rds v1.93.12 // indirect
+	github.com/aws/aws-sdk-go-v2/service/rolesanywhere v1.16.15 // indirect
+	github.com/aws/aws-sdk-go-v2/service/route53resolver v1.34.13 // indirect
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.76.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.34.18 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ses v1.29.10 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssm v1.56.12 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.24.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.28.14 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.33.14 // indirect
 	github.com/aws/smithy-go v1.22.2 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cjlapao/common-go v0.0.39 // indirect
+	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.8.0 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
@@ -78,11 +81,10 @@ require (
 	github.com/googleapis/gax-go/v2 v2.7.1 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
-	github.com/hashicorp/hc-install v0.4.0 // indirect
-	github.com/hashicorp/terraform-exec v0.17.3 // indirect
-	github.com/hashicorp/terraform-json v0.14.0 // indirect
-	github.com/imdario/mergo v0.3.12 // indirect
-	github.com/jmespath/go-jmespath v0.4.0 // indirect
+	github.com/hashicorp/hc-install v0.6.4 // indirect
+	github.com/hashicorp/terraform-exec v0.21.0 // indirect
+	github.com/hashicorp/terraform-json v0.22.1 // indirect
+	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
@@ -106,12 +108,13 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/std-uritemplate/std-uritemplate/go v0.0.57 // indirect
 	github.com/stretchr/testify v1.9.0 // indirect
-	github.com/zclconf/go-cty v1.11.0 // indirect
+	github.com/zclconf/go-cty v1.14.4 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/otel v1.24.0 // indirect
 	go.opentelemetry.io/otel/metric v1.24.0 // indirect
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/oauth2 v0.7.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
