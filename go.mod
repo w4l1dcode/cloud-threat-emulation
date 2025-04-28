@@ -9,7 +9,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.43.3
 	github.com/datadog/stratus-red-team/v2 v2.23.1
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/mattn/go-sqlite3 v1.14.24
+	github.com/mattn/go-sqlite3 v1.14.28
 	github.com/sirupsen/logrus v1.9.3
 	gopkg.in/yaml.v3 v3.0.1
 )
