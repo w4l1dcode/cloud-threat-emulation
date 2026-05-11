@@ -7,7 +7,6 @@ toolchain go1.24.1
 require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/aws/aws-sdk-go-v2/config v1.32.7
-	github.com/datadog/stratus-red-team/v2 v2.25.0
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.55.1
 	github.com/datadog/stratus-red-team/v2 v2.25.0
 	github.com/kelseyhightower/envconfig v1.4.0
@@ -73,7 +72,6 @@ require (
 	github.com/aws/smithy-go v1.24.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
-	github.com/cjlapao/common-go v0.0.39 // indirect
 	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.8.0 // indirect
@@ -103,9 +101,9 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
-	github.com/microsoft/kiota-abstractions-go v1.7.0 // indirect
+	github.com/microsoft/kiota-abstractions-go v1.9.2 // indirect
 	github.com/microsoft/kiota-authentication-azure-go v1.1.0 // indirect
-	github.com/microsoft/kiota-http-go v1.4.4 // indirect
+	github.com/microsoft/kiota-http-go v1.5.5 // indirect
 	github.com/microsoft/kiota-serialization-form-go v1.0.0 // indirect
 	github.com/microsoft/kiota-serialization-json-go v1.0.8 // indirect
 	github.com/microsoft/kiota-serialization-multipart-go v1.0.0 // indirect
@@ -120,7 +118,7 @@ require (
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/std-uritemplate/std-uritemplate/go v0.0.57 // indirect
+	github.com/std-uritemplate/std-uritemplate/go/v2 v2.0.3 // indirect
 	github.com/stretchr/testify v1.11.1 // indirect
 	github.com/zclconf/go-cty v1.14.4 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
