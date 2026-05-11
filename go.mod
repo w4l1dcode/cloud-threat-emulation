@@ -44,23 +44,23 @@ require (
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.4.21 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.7.21 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.4 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/v4a v1.3.32 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/v4a v1.4.22 // indirect
 	github.com/aws/aws-sdk-go-v2/service/bedrockruntime v1.50.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/cloudtrail v1.47.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.202.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ec2instanceconnect v1.27.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/eks v1.58.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/iam v1.39.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.4 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.6.0 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.17 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.18.13 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.13.7 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.9.13 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.13.21 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.19.21 // indirect
 	github.com/aws/aws-sdk-go-v2/service/lambda v1.88.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/organizations v1.37.8 // indirect
 	github.com/aws/aws-sdk-go-v2/service/rds v1.93.12 // indirect
 	github.com/aws/aws-sdk-go-v2/service/rolesanywhere v1.16.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/route53resolver v1.34.13 // indirect
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.76.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.97.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sagemaker v1.228.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.34.18 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ses v1.29.10 // indirect
